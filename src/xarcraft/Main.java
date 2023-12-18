@@ -15,7 +15,17 @@ public class Main {
 			"Double: " + e + '\n' +
 			"Boolean: " + bool + '\n' +
 			"Character: " + character + '\n' +
-			"String: " + hello_world
+			"String: " + hello_world + '\n'
+		);
+
+		int y;			// Declaration
+		y = 128;		// Assignment
+		int z = 256;	// Initialization (Declaration + Assignment)
+
+		// Every Instruction / Line Ends With a Semicolon (;)
+		System.out.println(
+			"Y = " + y + '\n' +
+			"Z = " + z + '\n'
 		);
 	}
 }
